@@ -53,6 +53,7 @@ const Hero = () => {
               variants={itemVariants}
               className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-headline font-extrabold tracking-[-0.04em] leading-[0.95] text-on-surface"
             >
+              <span className="sr-only">Bhaskar Talukder — </span>
               Full Stack <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary-dim">
                 Developer.
@@ -64,7 +65,7 @@ const Hero = () => {
               variants={itemVariants}
               className="max-w-2xl text-lg md:text-xl text-on-surface-variant font-body leading-relaxed"
             >
-              Computer Science student passionate about backend systems, APIs, and modern web
+              <strong>Bhaskar Talukder</strong> - Computer Science student passionate about backend systems, APIs, and modern web
               technologies. Transforming complex logic into elegant, high-performance digital
               experiences.
             </motion.p>
@@ -100,7 +101,7 @@ const Hero = () => {
             <div className="absolute inset-0 bg-primary/20 rounded-xl blur-2xl group-hover:blur-3xl transition-all duration-500"></div>
             <div className="relative aspect-square rounded-xl bg-surface-container-low overflow-hidden border border-outline-variant/20">
               <img
-                alt="Bhaskar Talukder"
+                alt="Bhaskar Talukder - Full Stack Developer specializing in MERN Stack"
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                 src="/profile.jpeg"
               />
