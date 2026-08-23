@@ -1,0 +1,40 @@
+👤 PERSONAL INFORMATION
+Name: Bhaskar Talukder
+Role: Full Stack Developer (MERN Stack Focus)
+Location: Ranchi, Jharkhand, India
+Email: surjagaming0@gmail.com
+LinkedIn: https://www.linkedin.com/in/bhaskar-talukder-0714792a2
+Summary: A Computer Science student (B.Tech, 2022–2026) with strong interest in full-stack development and web technologies. Experience working on MERN stack applications, backend systems, and APIs. Passionate about building scalable applications and continuously learning new technologies.
+
+💼 EXPERIENCE
+1. Back End Developer – CODECRAFT INFOTECH (Aug 2025 – Present)
+2. Software Development Intern – Ducat India (Jun 2025 – Aug 2025)
+   - Project: “The Macabre Scrolls” (MERN Stack)
+   - Built full-stack features using MongoDB, Express, React, Node.
+
+🛠️ SKILLS
+- Full Stack Development (MERN)
+- API Development
+- REST APIs
+- JavaScript / React / Node.js
+- MongoDB
+- Python
+- Data Structures & Algorithms
+
+📜 CERTIFICATIONS
+- Generative AI – Art of the Possible (AWS)
+- Flutter Bootcamp
+- DSA with Java Bootcamp
+- RAG Chatbots using Python
+- Python Bootcamp
+
+🎓 EDUCATION
+B.Tech in Computer Science, Usha Martin University (2022–2026)
+
+🌐 WEBSITE REQUIREMENTS
+- Premium modern UI (dark minimal/glassmorphism)
+- Framer Motion animations
+- EmailJS integration
+- GitHub API integration
+- Responsive design
+- Sections: Hero, About, Skills, Experience, Projects, Certifications, Contact.
