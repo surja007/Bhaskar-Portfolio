@@ -148,25 +148,6 @@ Edit `src/index.css` to modify colors, fonts, and design tokens:
 
 MIT License - feel free to use this template for your own portfolio.
 
-## SEO & Discoverability
-
-This portfolio is optimized for search engines with:
-- ✅ Semantic HTML structure
-- ✅ Proper meta tags and Open Graph data
-- ✅ Structured data (JSON-LD)
-- ✅ Sitemap.xml at `/sitemap.xml`
-- ✅ Robots.txt at `/robots.txt`
-- ✅ Mobile-first responsive design
-- ✅ Fast loading with Vite optimization
-
-### Post-Deployment SEO Checklist
-
-See [SEO_CHECKLIST.md](./SEO_CHECKLIST.md) for detailed instructions on:
-1. Submitting to Google Search Console
-2. Adding portfolio URL to LinkedIn, GitHub, resume
-3. Building backlinks
-4. Monitoring search performance
-
 ## Contact
 
 - 🌐 Portfolio: https://bhaskar-talukder.vercel.app
