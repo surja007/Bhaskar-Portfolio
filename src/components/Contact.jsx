@@ -55,12 +55,33 @@ const Contact = () => {
     
     setStatus({ loading: true, success: false, error: false, message: '' });
 
+    // Get environment variables
+    const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+    const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+    const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+
+    // Debug: Log if variables are missing (only shows in browser console, not exposed to users)
+    if (!serviceId || !templateId || !publicKey) {
+      console.error('EmailJS configuration missing:', {
+        hasServiceId: !!serviceId,
+        hasTemplateId: !!templateId,
+        hasPublicKey: !!publicKey
+      });
+      setStatus({
+        loading: false,
+        success: false,
+        error: true,
+        message: 'Email configuration error. Please contact directly via email.',
+      });
+      return;
+    }
+
     try {
       await emailjs.sendForm(
-        import.meta.env.VITE_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        serviceId,
+        templateId,
         formRef.current,
-        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+        publicKey
       );
 
       setStatus({
@@ -73,6 +94,7 @@ const Contact = () => {
       setLastSubmitTime(now);
       setFormData({ name: '', email: '', message: '' });
     } catch (error) {
+      console.error('EmailJS Error:', error);
       setStatus({
         loading: false,
         success: false,
